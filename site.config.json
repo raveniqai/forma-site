@@ -1,0 +1,14 @@
+{
+  "_note": "Every owner-specific value lives here. Edit, then run: python3 build.py",
+  "app_name": "Forma 360",
+  "short_name": "Forma",
+  "brand": "RavenIQ",
+  "site_url": "https://forma.raveniq.ai",
+  "publisher": "RavenIQ",
+  "support_email": "support@raveniq.ai",
+  "support_email_confirmed": true,
+  "support_email_note": "Confirmed by the owner 2026-10-27 (Cloudflare Email Routing forwards support@raveniq.ai to the owner's inbox). Keep the same address in Forma/App/LegalLinks.swift.",
+  "effective_date": "2026-10-26",
+  "app_store_url": null,
+  "app_store_note": "Leave null until the real App Store link exists. While null, the site says 'Coming to the App Store' and shows no badge or link."
+}
