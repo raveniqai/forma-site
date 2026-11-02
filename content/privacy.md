@@ -10,7 +10,8 @@ Last updated: {{effective_date}}
 - Forma has **no accounts**, **no ads**, **no tracking** and **no analytics**.
 - Your data lives **on your phone**. The only copy that leaves it is a backup to **your own private iCloud**, if you are signed in to iCloud.
 - The app looks up foods on **Open Food Facts** (a public database) when you scan a barcode or search for a food.
-- AI features are **optional**, **off by default**, and send data only to the service you choose, after you allow it. Forma has no AI servers of its own.
+- AI features are **optional**, **off by default**, and send data only to the service you choose, after you allow it. The current version of Forma has no AI servers of its own.
+- Connecting a **wearable such as Garmin** is **optional** and is part of the planned Forma Power plan. It is described in its own section below and is **not available in the current version**.
 - You can **export** or **delete** all your data in Settings at any time.
 
 ## What Forma stores, and where
@@ -37,6 +38,17 @@ You switch each use on separately: meal and label photos, meal descriptions, and
 
 Requests go straight from your phone to the address you gave. We do not operate that service and do not see, store or forward what you send. If it is a company's service, what it does with the data is governed by that company's own privacy policy. Your API key is kept in your phone's Keychain only and is never included in a backup. You can stop all AI and withdraw your permission at any time in Settings > AI.
 
+## Optional: wearables and Forma Power (planned)
+This section describes a feature that is **not in the current version of the app**. We publish it here so that you can see in advance how it will work.
+
+Forma Power is planned as an optional paid plan that adds wearable sync and AI features that run through a server operated by us. Nothing in this section applies unless you choose to subscribe and then connect a device. Without it, everything above stays true.
+
+**Connecting a wearable (for example Garmin).** You start the connection yourself in Settings and sign in with the wearable maker's own page. Forma never sees your Garmin password. Once connected, our server receives from the maker, on your behalf: your activities (type, time, duration, distance, heart rate), daily health summaries (for example steps, sleep and resting heart rate) and your weight. We use it only to show it to you inside Forma next to your food and training. We do not sell it, share it for advertising, or use it to build advertising profiles, and we do not use it to train AI models.
+
+**Where it is stored.** On a server we run in a cloud data centre (Oracle Cloud Infrastructure), in a database that holds only your connection and this data. It is kept only as long as you stay connected. When you disconnect the device or delete your data in Settings > Your data, we delete it from the server too.
+
+**AI through our server.** On Forma Power, meal photos, meal descriptions and coach wording can be sent through our server to an AI provider (currently Groq) instead of to an address you enter. This is only for phones that cannot do the task on the phone itself; where Apple Intelligence on your iPhone can do it, it stays on your phone. As today, each use is switched on separately and nothing is sent until you tap Allow on a consent screen that names where it goes. The few facts behind a coach message are the same as described above. We do not send your name, an account, your diary or your history.
+
 ## Notifications and widgets
 Reminders are scheduled on your phone. Widgets and the rest-timer Live Activity read a small snapshot the app keeps in your phone's secure storage. Nothing is sent to us.
 
@@ -52,7 +64,7 @@ Forma is not directed at children. We do not knowingly collect data from childre
 <!-- TODO-OWNER: confirm the wording and the age rating you choose in App Store Connect (the listing draft expects 4+). The original draft said "under 13 [adjust to your age rating/jurisdiction]". Decide with a lawyer whether to name an age. -->
 
 ## Your choices and rights
-Export or delete your data in Settings > Your data. Because we hold none of it, requests to access, correct or delete data are answered by those tools. If you subscribe, Apple handles payment; we do not see your payment details. Contact [{{support_email}}](mailto:{{support_email}}) with any question.
+Export or delete your data in Settings > Your data. Because we hold none of it in the current version, requests to access, correct or delete data are answered by those tools. If you use the planned wearable sync, disconnecting and deleting your data in Settings also deletes what the server holds, and you can write to us to ask for a copy or for deletion. If you subscribe, Apple handles payment; we do not see your payment details. Contact [{{support_email}}](mailto:{{support_email}}) with any question.
 
 <!-- TODO-OWNER: add jurisdiction-specific wording (for example the data protection law of the owner's country, GDPR / UK GDPR, CCPA) with a lawyer, if you want it. It is deliberately left out rather than guessed. -->
 
