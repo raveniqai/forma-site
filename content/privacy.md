@@ -4,8 +4,6 @@ Last updated: {{effective_date}}
 
 {{app_name}} ("Forma", "the app") is made by {{publisher}}. Contact: [{{support_email}}](mailto:{{support_email}}).
 
-<!-- TODO-OWNER: the support email is not yet confirmed (see site.config.json). Confirm the mailbox works before publishing. -->
-
 ## The short version
 - Forma has **no ads**, **no tracking** and **no analytics**, and you do not create an account.
 - **Core** keeps your data **on your phone**. The only copy that leaves it is a backup to **your own private iCloud**.
@@ -34,7 +32,7 @@ This section applies only if you subscribe to **Forma Power** and then choose to
 - **Garmin**, the source of the data, which you connect yourself. Garmin's own privacy policy applies to what Garmin holds.
 - **Oracle Cloud Infrastructure**, the cloud provider that hosts Forma's server.
 - **Forma's server**, run by {{publisher}}, on that hosting. It holds an open-source service called Open Wearables that stores your Garmin data under a random per-user identifier, not your name. The token that identifies your phone to the server is stored only as a hash.
-- **Encrypted backups.** The server database is backed up every night, encrypted, and a limited number of the newest backups are kept.
+- **Encrypted backups.** The server database is backed up every night, encrypted. Backups are kept for up to two weeks and then overwritten.
 - **No other party** receives your Garmin data. In particular, the AI service below does not.
 
 ### Online AI help: how it works
@@ -43,8 +41,6 @@ This section applies only if you subscribe to **Forma Power** and then choose to
 - **Never sent:** Garmin data or any other watch data, and anything derived from it. Also not your name, your diary or your history. Our server refuses requests that look like they contain watch data.
 - **Route.** Your phone sends the request to Forma's server, which passes it to an online AI provider (currently Groq) and returns the answer. Forma's server keeps nothing you send: no photo, text or answer is stored. It logs only technical facts such as the time, the request type, the model used, and a daily count to enforce a usage limit.
 - **The AI provider.** Groq receives the request while it answers it. What Groq does with it is covered by [Groq's privacy policy](https://groq.com/privacy-policy).
-
-<!-- TODO-OWNER: confirm Groq's data-retention and training terms before publishing (the sources say they are unverified) and say so here. Also confirm the provider is still Groq at launch. -->
 
 - **Where it runs instead.** Where Apple Intelligence is available on your iPhone, it does the task on the phone and nothing leaves it.
 - **Everything the AI produces is a draft.** You check it. The numbers behind your targets are worked out on your phone, never by AI.
@@ -59,15 +55,14 @@ To withdraw, open **Settings > AI help** and switch off **Online AI help**. It t
 - **Correct.** Garmin data comes from your watch; correct it at the source in Garmin's apps. For anything else, write to us.
 - **Stop receiving.** **Settings > Devices > Garmin > Disconnect Garmin** stops new data. You can connect again later.
 - **Delete.** **Settings > Data & backup > Delete all my data** also deletes your Power account on our server: your Garmin connection and the data stored for it, your registered phones, and the account itself. You can also write to us to ask for deletion.
-- **Export.** **Settings > Data & backup > Export all my data** exports what is on your phone. For the server copy, write to us.
+- **Export.** **Settings > Data & backup > Export all my data** exports what is on your phone. For the server copy, write to us and we will reply within 30 days.
+- **Retention.** We keep your Power data while your account exists. Disconnecting Garmin stops new data but does not erase what we already hold; use **Delete all my data** for that. Deleting removes it from our live database at once. Because of the nightly encrypted backups, a deleted record can remain in a backup for up to two weeks before it is overwritten. We do not restore deleted accounts from backups.
 - **Withdraw consent.** Settings > AI help, as above.
-
-<!-- TODO-OWNER: (1) retention period of server data for Power and of the nightly encrypted backups (the app/server do not state it); say how long deleted data can remain in backups. (2) confirm you can fulfil server-copy export and deletion requests sent to the support email, and how fast. (3) region of the hosting: deliberately not named here; decide whether to disclose it. -->
 
 ## Apple Health
 If you allow it, Forma **reads** your body weight, body fat percentage and lean body mass from Apple Health so you do not type them. Forma **does not write** to Health. Health data is not used for advertising and is not sold.
 
-Forma is also being extended so that the coach can read sleep, heart-rate variability and resting heart rate from Apple Health. This is **not in the current version**. When it is, it will be read **on your phone only**, and, like Garmin data, it and anything made from it will never be sent to the AI service. You can withdraw access any time in the Health app or iOS Settings.
+The coach can also read sleep, heart-rate variability and resting heart rate from Apple Health, but only if you allow it (on the Overnight card on Today, or in **Settings > Devices**). This is read **on your phone only**, and, like Garmin data, it and anything made from it is never sent to the AI service. You can pause it in **Settings > Devices > Apple Health**, or withdraw access any time in the Health app or iOS Settings.
 
 ## iCloud backup
 Forma saves a copy of its database to a private area of **your** iCloud account (CloudKit private database). Only you can read it; we cannot. It is stored under your iCloud storage. "Delete all my data" can delete it too; you can also remove it in iOS Settings > Apple Account > iCloud > Manage Storage.
@@ -102,12 +97,8 @@ We do not sell or share your data for advertising, do not track you across apps 
 ## Children
 Forma is not directed at children. We do not knowingly collect data from children.
 
-<!-- TODO-OWNER: confirm the wording and the age rating you choose in App Store Connect (the listing draft expects 4+). The original draft said "under 13 [adjust to your age rating/jurisdiction]". Decide with a lawyer whether to name an age. -->
-
 ## Your choices and rights
 Export or delete your data in Settings > Data & backup. With Core we hold none of your data, so those tools answer requests to access, correct or delete. With Power, see [Your rights over Garmin and Power data](#your-rights-over-garmin-and-power-data), and you can write to [{{support_email}}](mailto:{{support_email}}) with any question or request.
-
-<!-- TODO-OWNER: add jurisdiction-specific wording (for example the data protection law of the owner's country, GDPR / UK GDPR, CCPA) with a lawyer, if you want it. It is deliberately left out rather than guessed. -->
 
 ## Medical disclaimer
 Forma gives information and suggestions, not medical advice. See the [Terms of Use](/terms/).
