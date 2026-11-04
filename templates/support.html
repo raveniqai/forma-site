@@ -8,7 +8,7 @@
 <section>
   <h2>Contact</h2>
   <p>Write to <span class="email">{{support_email}}</span> (<a href="mailto:{{support_email}}?subject=Forma%20support">open in your mail app</a>). {{app_name}} is made by {{publisher}}.</p>
-  <p>{{short_name}} has no accounts, so there is nothing to look up by username. Please do not send health data or screenshots of your diary unless you want to.</p>
+  <p>{{short_name}} has no sign-in, so there is nothing to look up by username. Please do not send health data or screenshots of your diary unless you want to.</p>
 </section>
 
 <section>
@@ -17,6 +17,10 @@
     <li><a href="#backup">Backup and restore</a></li>
     <li><a href="#trial">Free trial and subscription</a></li>
     <li><a href="#cancel">How to cancel</a></li>
+    <li><a href="#power-ends">What happens when Power ends</a></li>
+    <li><a href="#garmin">Connect or disconnect Garmin</a></li>
+    <li><a href="#ai-off">Turn online AI help off</a></li>
+    <li><a href="#sent">What is sent where</a></li>
     <li><a href="#data">Export or delete all my data</a></li>
     <li><a href="#ai">Do I need AI?</a></li>
     <li><a href="#problem">How to report a problem</a></li>
@@ -26,11 +30,11 @@
   <details id="backup">
     <summary>Backup and restore</summary>
     <p>This phone owns your data. {{short_name}} keeps a copy in your private iCloud, and the one before it, so a mistake is never the only copy. It works with no connection, and the backup catches up when you are back online. You need to be signed in to iCloud.</p>
-    <p><strong>Check or run a backup.</strong> Open Settings, then Backup &amp; data health, and read the status. Tap Back up now to run one right away.</p>
+    <p><strong>Check or run a backup.</strong> Open Settings, then Data &amp; backup, and read the status. Tap Back up now to run one right away.</p>
     <p><strong>Restore on a new phone.</strong></p>
     <ol>
       <li>Install {{short_name}} and sign in to the same iCloud account.</li>
-      <li>On the first screen, tap &ldquo;I&rsquo;m restoring from a backup&rdquo;. Or, in an existing install, open Settings, Backup &amp; data health, and tap Restore from my backup.</li>
+      <li>On the first screen, tap &ldquo;I&rsquo;m restoring from a backup&rdquo;. Or, in an existing install, open Settings, Data &amp; backup, and tap Restore from my backup.</li>
       <li>Tap Download and apply at next launch, then close and reopen {{short_name}}. Nothing changes until you do. Your current data is kept aside, not deleted.</li>
     </ol>
     <p>If the backup holds more than the phone you are on, {{short_name}} will not overwrite it. It offers to replace the backup with this phone&rsquo;s data, or to keep the backup as it is. Choose carefully.</p>
@@ -38,34 +42,74 @@
 
   <details id="trial">
     <summary>Free trial and subscription</summary>
-    <p>{{short_name}} is free for 14 days, with everything switched on and no payment details asked for. The trial starts when you finish the first-run questions. After that, Forma Core keeps it going for a monthly or yearly price, shown in Settings &gt; Subscription (taken from the App Store for your country). Core includes both coaches.</p>
-    <p>If the trial or a subscription ends, {{short_name}} becomes read-only. Your history, charts, export, backup and restore, Delete all my data and Settings keep working, and nothing you logged is touched.</p>
-    <p>To subscribe, open Settings &gt; Subscription, choose Monthly or Yearly and tap Subscribe. On a new phone, use Restore Purchases in the same place.</p>
+    <p>{{short_name}} Core is free for 14 days, with no payment details asked for. The trial starts when you finish the first-run questions and covers Core only; Power is a separate subscription. After the trial, Forma Core keeps it going for a monthly or yearly price. Core includes both coaches and everything on your iPhone.</p>
+    <p><strong>Forma Power</strong> is optional. It is Core plus Garmin watch data, online AI help for meals, and Ask Coach.</p>
+    <p>Prices are shown in Settings &gt; Subscription, taken from the App Store for your country.</p>
+    <p>If the trial or Core ends, {{short_name}} becomes read-only. Your history, charts, export, backup and restore, Delete all my data and Settings keep working, and nothing you logged is touched.</p>
+    <p>To subscribe, open Settings &gt; Subscription, choose a plan and tap Subscribe. On a new phone, tap Restore Purchases in the same place.</p>
     <p>Payment is charged to your Apple Account when you confirm the purchase. The subscription renews automatically unless you cancel at least 24 hours before the end of the current period.</p>
   </details>
 
   <details id="cancel">
     <summary>How to cancel</summary>
-    <p>You cancel through Apple, not through us. On your iPhone open the Settings app, tap your name, then Subscriptions, choose Forma Core and cancel. You can also tap Manage Subscription in Settings &gt; Subscription in {{short_name}}. Cancel at least 24 hours before the end of the current period to avoid the next charge.</p>
+    <p>You cancel through Apple, not through us. On your iPhone open the Settings app, tap your name, then Subscriptions, choose Forma and cancel. You can also tap Manage Subscription in Settings &gt; Subscription in {{short_name}}. Cancel at least 24 hours before the end of the current period to avoid the next charge.</p>
     <p>Refunds are handled by Apple. You can request one at reportaproblem.apple.com.</p>
     <p>If you never subscribe, nothing is charged after the 14-day trial; the app simply becomes read-only.</p>
   </details>
 
+  <details id="power-ends">
+    <summary>What happens when Power ends</summary>
+    <ul>
+      <li>{{short_name}} keeps working on your iPhone, like Core. Your history and everything you logged stay.</li>
+      <li>Garmin watch data, online AI help and Ask Coach pause. Garmin data already on your phone stays.</li>
+      <li>Resubscribe to Power and they come back.</li>
+      <li>Your Power account and Garmin data on our server are removed when you use Settings &gt; Data &amp; backup &gt; Delete all my data, or when you ask us to at {{support_email}}. See the <a href="{{root}}privacy/#garmin-data-and-ai">privacy policy</a>.</li>
+    </ul>
+  </details>
+
+  <details id="garmin">
+    <summary>Connect or disconnect Garmin</summary>
+    <p>Garmin is part of Power.</p>
+    <ul>
+      <li><strong>Connect:</strong> open Settings &gt; Devices &gt; Garmin and tap Connect Garmin. Sign in on Garmin&rsquo;s own page. {{short_name}} never sees your Garmin password. Data appears after your watch syncs.</li>
+      <li><strong>Disconnect:</strong> in the same place, tap Disconnect Garmin. {{short_name}} stops receiving data from your watch. What is already on your phone stays. You can connect again at any time.</li>
+      <li><strong>Delete the stored Garmin data:</strong> use Settings &gt; Data &amp; backup &gt; Delete all my data, which also deletes your Power account and Garmin data on our server.</li>
+    </ul>
+    <p>Garmin data is never sent to the online AI service, is not sold, and is not used to train any AI model.</p>
+  </details>
+
+  <details id="ai-off">
+    <summary>Turn online AI help off</summary>
+    <p>Open Settings &gt; AI help and switch off Online AI help. It stops at once. {{short_name}} then uses your iPhone, or your own typing. You can switch it on again at any time; a screen will ask for your consent again.</p>
+    <p>The other switch on that screen, Use the model on this iPhone, controls Apple&rsquo;s on-device model and sends nothing anywhere.</p>
+  </details>
+
+  <details id="sent">
+    <summary>What is sent where</summary>
+    <ul>
+      <li><strong>Core:</strong> nothing goes to us. A backup goes to your own private iCloud. A barcode or food search goes to Open Food Facts.</li>
+      <li><strong>Power, Garmin:</strong> your Garmin data goes from Garmin to Forma&rsquo;s server (hosted on Oracle Cloud Infrastructure) and then to your phone.</li>
+      <li><strong>Power, online AI help</strong>, only after your consent: the meal photo, description or question you send, through Forma&rsquo;s server to an online AI service. The server keeps nothing.</li>
+      <li><strong>Never to the AI service:</strong> Garmin or other watch data, and anything made from it.</li>
+    </ul>
+    <p>The full list is in the <a href="{{root}}privacy/">privacy policy</a>.</p>
+  </details>
+
   <details id="data">
     <summary>Export or delete all my data</summary>
-    <p>Open Settings, then Your data.</p>
+    <p>Open Settings, then Data &amp; backup.</p>
     <ul>
-      <li><strong>Export all my data</strong> gives you one file with everything (JSON), plus food, workouts and weight as spreadsheets (CSV).</li>
-      <li><strong>Delete all my data</strong> asks you to confirm twice. The second step offers to delete from this phone and iCloud, or from this phone only. Deleting cannot be undone, so export first if you want a copy.</li>
+      <li><strong>Export all my data</strong> gives you a zip with one file with everything on your phone (JSON), plus food, workouts and weight as spreadsheets (CSV).</li>
+      <li><strong>Delete all my data</strong> asks you to confirm twice. The second step offers to delete from this phone and iCloud, or from this phone only. Deleting cannot be undone, so export first if you want a copy. If you use Power, it also deletes your Power account on our server, with your Garmin connection and the data stored for it.</li>
     </ul>
     <p>Your iCloud backup is a separate copy: delete it too, or keep it so you can restore later. You can also remove it in iOS Settings &gt; Apple Account &gt; iCloud &gt; Manage Storage. Apple Health keeps its own data, and its permission for {{short_name}} stays in the Health app.</p>
-    <p>Because {{short_name}} has no accounts and we never receive your data, there is nothing on our side to delete.</p>
+    <p>With Core there is nothing on our side to delete, because we never receive your data. With Power, the server holds the data described in the <a href="{{root}}privacy/#garmin-data-and-ai">privacy policy</a>. To get a copy of it, or to ask for deletion, write to {{support_email}}.</p>
   </details>
 
   <details id="ai">
     <summary>Do I need AI?</summary>
-    <p>No. {{short_name}} works fully without AI. Targets, session plans and rest days are worked out by ordinary calculations on your phone, and you log food by search, barcode or by hand. {{short_name}} has no AI servers of its own.</p>
-    <p>If you want extras, open Settings, then AI, and choose a personal server or another AI service (its address, a model name and your API key). Off is the default. Before anything is sent, a screen shows exactly where requests go and what is sent, and you tap Allow or Not now. You can switch each use off later, or choose &ldquo;Stop all AI and take back my permission&rdquo;. Your API key stays in your phone&rsquo;s Keychain and is not included in backups.</p>
+    <p>No. {{short_name}} works fully without AI. Targets, session plans and rest days are worked out by ordinary calculations on your phone, and you log food by search, barcode or by hand.</p>
+    <p>Where your iPhone has Apple Intelligence, {{short_name}} can use it on the phone, and nothing leaves it. Power adds online AI help and Ask Coach, through Forma&rsquo;s own server. It is off until you agree on a consent screen that shows what is sent and where. You can switch it off in Settings &gt; AI help.</p>
   </details>
 
   <details id="problem">
@@ -73,7 +117,7 @@
     <p>Email <span class="email">{{support_email}}</span> and include:</p>
     <ul>
       <li>what you did, what you expected, and what happened instead</li>
-      <li>the {{short_name}} version (Settings &gt; About) and your iOS version</li>
+      <li>the {{short_name}} version (Settings &gt; About &amp; help) and your iOS version</li>
       <li>your iPhone model</li>
       <li>a screenshot, if it helps and it does not show anything you want to keep private</li>
     </ul>
