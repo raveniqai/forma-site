@@ -33,7 +33,7 @@ def fill(text: str, extra: dict | None = None, where: str = "") -> str:
     return TOKEN.sub(sub, text)
 
 
-# ---------- tiny markdown (headings, lists, paragraphs, bold, italic, links, raw HTML comments) ----------
+# ---------- tiny markdown (## and ### headings, lists, paragraphs, bold, italic, links, raw HTML comments) ----------
 def inline(s: str, root: str) -> str:
     s = html.escape(s, quote=False)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
@@ -79,6 +79,10 @@ def markdown(src: str, root: str) -> tuple[str, str]:
             flush()
             h = line[3:].strip()
             out.append(f'<h2 id="{slug(h)}">{inline(h, root)}</h2>')
+        elif line.startswith("### "):
+            flush()
+            h = line[4:].strip()
+            out.append(f'<h3 id="{slug(h)}">{inline(h, root)}</h3>')
         elif line.startswith("- "):
             if para:
                 flush()
