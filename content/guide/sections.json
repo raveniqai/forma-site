@@ -1,3 +1,47 @@
 [
- {"id": "start", "title": "Start here", "blurb": "What Damla is for and how a day with it looks."}
+ {
+  "id": "start",
+  "title": "Start here",
+  "blurb": "What Forma is for, setting up, and a day with it."
+ },
+ {
+  "id": "eat",
+  "title": "Eat",
+  "blurb": "Logging food, targets and your week."
+ },
+ {
+  "id": "train",
+  "title": "Train",
+  "blurb": "Sessions, sets, the rest timer and your history."
+ },
+ {
+  "id": "progress",
+  "title": "Progress",
+  "blurb": "Weight, body composition, strength and the Fitness score."
+ },
+ {
+  "id": "coaches",
+  "title": "Coaches",
+  "blurb": "The training and diet coaches and their messages."
+ },
+ {
+  "id": "power",
+  "title": "Forma Power",
+  "blurb": "Garmin data, online AI help and Ask Coach."
+ },
+ {
+  "id": "data",
+  "title": "Your data",
+  "blurb": "Backup, Apple Health, export, delete and privacy."
+ },
+ {
+  "id": "help",
+  "title": "Help",
+  "blurb": "When something does not work."
+ },
+ {
+  "id": "your-way",
+  "title": "Track it your way",
+  "blurb": "Different ways to log food, judge progress and train, with worked weeks."
+ }
 ]
