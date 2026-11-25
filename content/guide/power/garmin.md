@@ -22,6 +22,10 @@ Afterwards, you can look at relevant home numbers and charts. Sleep, HRV and res
 
 You can also ask `how did I sleep this week` or `resting heart rate this month`.
 
+## Other devices
+
+Garmin is the first watch Forma connects to directly. Devices that save to Apple Health can share that way. More direct connections are planned. See [Other watches and rings](../other-devices/).
+
 ## Keep the numbers in context
 
 Watch readings are one view of recovery. Read them alongside your morning check-in and how your training actually feels.
