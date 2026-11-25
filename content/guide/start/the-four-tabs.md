@@ -1,46 +1,45 @@
 ---
-title: The four tabs
-summary: What lives where: Today, Train, Fuel, Progress.
+title: One coach, one menu
+summary: Find your way around the coach screen, grid menu and home numbers.
 order: 20
 ---
 
-# The four tabs
+# One coach, one menu
 
-Forma has four tabs: Today, Train, Fuel and Progress. Each holds one part of your day, so you always know where to look.
+Forma opens on one coach screen. Talk or type there for most things. The grid menu at the top right opens Train, Fuel and Reports when you want to look closer.
 
-![Today, with the rings for Fuel, Train and Recovery.](forma-01-today.png)
+## The coach screen
 
-## When to use it
+Use the coach screen for everyday requests. You can say or type things like:
 
-- You are new to Forma and want to know what lives where.
-- You are looking for something — a log, a chart, the Exercise library — and want to find it quickly.
-- You turned a coach on or off and want to know what changed on screen.
+- `log espresso`
+- `I weigh 78.4`
+- `start training`
+- `how did I sleep this week`
+- `how was my week`
 
-## Step by step
+The same screen is also the place to ask `what can you do` when you want a reminder of what Forma understands.
 
-Here is what each tab holds. Tap a tab name to switch between them.
+## The grid menu
 
-1. Open **Today**. It is your day at a glance. Above the rings is the big card for the next thing to do: a check-in, a session, a meal, a weigh-in or a rest day. Three rings sit below it: Fuel (calories left), Train (your session) and Recovery. Tap the Fuel ring to open Fuel, the Train ring to open Train, or the Recovery ring to open Progress. Under the rings is your weight trend.
-2. Open **Train**. It holds today's session, your week, the Exercise library and Injuries.
-3. Open **Fuel**. It shows what you ate today, your target, Your week, and Supplements.
-4. Open **Progress**. It starts with your weight verdict and chart: a short line on how your weight is moving, and the chart behind it. Below that is one card, Your body & training, with Strength, Recovery, Body and the Fitness score.
+Open the grid at the top right, then choose:
 
-### Today in detail
+- **Train** for your training view.
+- **Fuel** for your food and targets.
+- **Reports** for a coach summary and your progress.
 
-The top row of Today shows the date and a greeting. The gear at the top right opens Settings. Next to it, a speech-bubble button opens Ask Coach, where you can ask a question about your training and eating. Answering is part of the optional Forma Power extras; without it the button opens the plans.
+Reports starts with a short coach summary and an on-track card. The card brings together your fitness score, weight, muscle progress and body trends. Choose **Full report** to open the full Progress screen.
 
-The Weight card shows your 7-day average with a small chart. Tap Trend on it to see the full picture on Progress, or Add weigh-in to add a reading. If the Morning check-in is due, it appears as the big card: slide to how rested you feel and tap Save.
+## The six home numbers
 
-## Good to know
+A quiet strip on the home screen shows this week, protein, weight, sleep, HRV and resting heart rate. Tap one to see its chart. You can also ask the coach about these numbers in your own words.
 
-- Train appears when the training coach is on, and Fuel when the diet coach is on. Both are on to start with; change it in Settings > Coaches.
-- Each ring belongs to a coach: Fuel to the diet coach, Train and Recovery to the training coach. With one coach off, its ring is not drawn.
-- Train and Progress each have a clock button that opens History & reports: your past sessions and your reports.
-- If a backup has been failing or missing for three days, a small dot appears on the gear. The details are in Settings, under Data & backup.
+## Settings, backup and memories
+
+Settings is where you can manage your data. Export and delete options are under **Data & backup**. To review the few things the coach remembers, open **Settings**, then **Data & backup**, then **What the coach remembers**.
 
 ## Related
 
 - [What Forma is for](/guide/start/what-forma-is-for/)
-- [A day with Forma](/guide/start/a-day-with-forma/)
-- [Today's session](/guide/train/todays-session/)
-- [Weight and the 7-day average](/guide/progress/weight-and-the-7-day-average/)
+- [Reports and the numbers on your home screen](/guide/progress/reports-and-home-numbers/)
+- [What your coach remembers](/guide/coaches/what-your-coach-remembers/)

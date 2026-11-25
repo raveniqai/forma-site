@@ -1,49 +1,37 @@
 ---
-title: Injuries
-summary: Tell the planner what to train around.
-order: 80
+title: Pain, illness and training
+summary: Give the coach context without treating it as medical care.
+order: 90
 ---
 
-# Injuries
+# Pain, illness and training
 
-Injuries is a list on the Train tab for anything that hurts right now. You log an injury once, and the planner leaves out lifts that load that area and swaps in other lifts.
+Tell the coach when you are sick or when life is affecting training. It can remember being sick on your phone, along with a few other kinds of context.
 
-The planner only avoids and swaps lifts. It does not diagnose anything, and it does not replace your physio or doctor.
+## What the coach can do
 
-## When to use it
+You can tell the coach about being sick, travelling or a busy week and see those memories later. You can also ask for information about your logs, recovery numbers and training.
 
-- A knee, shoulder, back or other body part is injured, and you still want to train.
-- You have recovered enough to train again and want a few lighter sessions first.
-- Something is managed with your physio's blessing, but certain movements must stay out of the plan.
-- An old injury cleared up, and you want it off the list for good.
+That does not make Forma a medical service. It does not diagnose an injury or decide whether it is safe for you to train.
 
-## Step by step
+## When something hurts
 
-1. On the Train tab, tap **Injuries**.
-2. Tap the **plus** button (Add injury) at the top right. The Add injury sheet opens.
-3. Choose **Where** the injury is: neck, shoulder, elbow, wrist or hand, upper back, lower back, hip, knee, ankle or foot, or other.
-4. If the area can be on one side, pick the **Side**: left, right or both.
-5. Pick a **Status**: Active, Recovering or Managed.
-6. Set **Pain now** with the slider, from 0 to 10.
-7. Under **Avoid**, switch on anything that should stay out of your plan, for example No overhead press, No deep knee bend or No heavy spinal loading.
-8. Tap **Save**.
+Stop if a movement hurts or feels wrong. Do not use a warm-up, stretch, shorter session or equipment change to push through pain.
 
-From then on, the planner skips lifts that load the area and swaps in other lifts. Today's session says **Working around**, and names the injury it is working around.
+Talk to a doctor, physiotherapist or another qualified professional about symptoms and returning to training. In an emergency, contact your local emergency service.
 
-## Good to know
+## When you are sick
 
-- Keep the list current, so the planner steers correctly. Under **How is it?**, tap **Better**, **Same** or **Worse**. If you tap Worse on an injury that is not Active, its status goes back to Active.
-- Tap **Change status** to move an injury through Active, Recovering, Managed and Resolved. The same menu has **Delete**, which removes it entirely.
-- **Active** and **Recovering** drop the lifts that normally load that area, along with anything you switched on in **Avoid**. A check-in is due again after 7 days.
-- **Managed** means you are easing back on purpose: the area's normal lifts come back into the plan, and only the things you switched on in **Avoid** stay out of it.
-- **Resolved** means it is over. Forma can then plan a few lighter sessions to bring you back up, and the entry says **Easing back in** with the count left. Each session you finish counts one lighter session down.
+Give yourself room to make a careful decision. The coach can hold the context, but medical advice needs a qualified person who understands your situation.
 
-> **Tip:** Set Pain now to how you feel at the moment you log. The change between check-ins, not one number, shows whether things are moving the right way.
+When you are ready to look at your routine again, `how was my week` and `am I on track` are gentle places to start.
 
-The injury list stays on your phone, like the rest of your logging.
+## Review what is remembered
+
+Open **Settings > Data & backup > What the coach remembers**. You can see and delete the memory there.
 
 ## Related
 
-- [Today's session](/guide/train/todays-session/)
-- [Add, swap and reorder lifts](/guide/train/add-swap-and-reorder-lifts/)
-- [Log your sets](/guide/train/log-your-sets/)
+- [What your coach remembers](/guide/coaches/what-your-coach-remembers/)
+- [About, and not medical advice](/guide/data/not-medical-advice/)
+- [Training when your week changes](/guide/train/the-rest-timer/)

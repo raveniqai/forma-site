@@ -1,64 +1,39 @@
 ---
 title: About, and not medical advice
-summary: What Forma is and is not.
+summary: What Forma's coach, targets and scores can and cannot tell you.
 order: 50
 ---
 
 # About, and not medical advice
 
-Forma logs your training and your eating, and works out your targets, sessions and rest days from the numbers you enter or connect. This page says what Forma is, what it is not, and where to find the version, legal pages and credits.
+Forma is a coach you talk to about training, food, recovery and progress. It gives information and suggestions, not medical advice.
 
-## When to use it
+## What the numbers are
 
-- You want to know what the numbers in Forma are, and how far you can trust them.
-- You have a health condition and want to know whether Forma is right for you.
-- You are looking for the app's version number, its Privacy Policy or Terms of Use, or a way to contact support.
-- You want to know where the food data and pictures in the app come from.
+Calorie and protein targets, charts, reports and the fitness score are based on the information available to Forma. They can help you review your routine, but they are not diagnoses or prescriptions.
 
-## What Forma is
+The morning check-in records how you feel. It is not a clinical assessment. Sleep, HRV, resting heart rate and body-composition information also need real-world context.
 
-Forma gives information and suggestions, not medical advice. Your calorie and protein targets, the training sessions it plans, its recovery notes and the Fitness score are all estimates. They are calculated from the numbers you enter or connect and general fitness rules, so they can be wrong for you: the calculation is only as good as its inputs.
+## What the coach is not
 
-Forma is not a medical device. It does not diagnose, treat, cure or prevent any condition.
+Forma is not a doctor, dietitian, physiotherapist or emergency service. It does not diagnose, treat, cure or prevent a condition.
 
-The supplements list records what you take and what it adds. Forma never tells you what to take or how much. The injury planner only avoids and swaps lifts; it does not judge how an injury should be treated. For supplements, ask a doctor or pharmacist. For an injury, follow your physio or doctor.
+Logging creatine does not mean Forma recommends it. Asking for training, a warm-up or a stretch does not mean the app can decide whether an activity is safe for your body.
 
-## Talk to a professional first
+## Talk to a qualified professional
 
-Talk to a doctor or another qualified professional before you change how you eat or train, especially if any of these apply to you:
+Seek professional advice before changing how you eat or train when you have a medical condition, take medication, are pregnant, are recovering from an injury, or have concerns about food or your body.
 
-- You are pregnant or breastfeeding.
-- You are under 18.
-- You are injured or recovering from one.
-- You take medication.
-- You have a medical condition or an eating disorder.
+Stop if something hurts or feels wrong. For urgent help, contact your local emergency service.
 
-If something hurts or feels wrong while you train, stop. In an emergency, call your local emergency number.
+## Experiments and patterns
 
-## Finding About, and the legal pages
+Requests such as `any patterns` and `run an experiment` are ways to explore your own information. They do not prove cause and effect and should not be used to make medical decisions.
 
-At the bottom of Settings, **About & help** shows the app's version and links to:
-
-- **Privacy Policy** — what data stays on your phone, what goes to your iCloud, and what leaves it.
-- **Terms of Use** — the agreement between you and Forma.
-- **Contact support** — where to ask a question or report a problem.
-
-The same screen lists **Not medical advice**, which repeats the summary above.
-
-## Where the data in Forma comes from
-
-- Food data comes from USDA FoodData Central, bundled in the app, and from Open Food Facts, looked up when you scan a barcode or search for a food. It may contain errors. Check the label when a package has one.
-- Acknowledgements (in Settings) lists where the food data, the exercise pictures and other material in Forma come from.
-
-## Good to know
-
-> **Note:** The developer holds none of your data. To see, correct or remove it, use **Export all my data** and **Delete all my data** in Settings > Data & backup.
-
-> **Limit:** The estimates in Forma are a starting point, not a prescription. Check them against your own results over weeks. If the scale disagrees with a target for long enough, question the target.
+> **Note:** You control your Forma data. Export and deletion are in Settings, and coach memories can be reviewed under **Data & backup**.
 
 ## Related
 
+- [Pain, illness and training](/guide/train/injuries/)
 - [Privacy: what stays where](/guide/data/privacy-what-stays-where/)
-- [What Forma is for](/guide/start/what-forma-is-for/)
-- [The Fitness score](/guide/progress/the-fitness-score/)
-- [Injuries](/guide/train/injuries/)
+- [Export or delete all my data](/guide/data/export-or-delete-everything/)

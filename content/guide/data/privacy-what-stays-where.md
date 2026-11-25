@@ -1,59 +1,58 @@
 ---
 title: Privacy: what stays where
-summary: On the phone, in your iCloud, and what Power sends.
+summary: On-device coaching, private iCloud backup and clearly optional online help.
 order: 40
 ---
 
 # Privacy: what stays where
 
-Forma keeps your data on your phone, with a backup copy in your own iCloud. This page lists every place your data can go, so you know what leaves the phone, when, and why.
+Forma Core keeps everything on your phone. Optional features have different paths, so it helps to separate speech, memories, backup, watch data and online AI help.
 
-## When to use it
+## Speech and typing
 
-- You want to know where your meals, workouts and weigh-ins are stored, and who can see them.
-- You are wondering what a food search or barcode scan sends out.
-- You are deciding whether to switch on the optional Forma Power extras, and want to know what they send.
-- You want to check that nothing tracks you or feeds advertising.
+Speech is recognised on your iPhone and is never sent anywhere. You can type instead whenever you prefer.
 
-## What stays on the phone
+The coach can read answers aloud. That does not require sending your speech away for recognition.
 
-Everything you enter or connect stays in the app's database on this phone: your profile (height, birth date, sex, goal), weigh-ins, body measurements, meals and foods you saved, workouts and sets, supplements, injuries you log, check-in notes, targets and settings. The developer cannot see any of it and does not receive it.
+## Coach memories
 
-That includes Apple Health. Forma reads your weight, body fat and lean mass from Health only if you allow it, so a smart-scale reading arrives without typing. Forma never writes to Health, and Health data is never sent to Forma, to anyone else, or to the online AI service.
+The coach can remember a few things, including a food you avoid, being sick, travelling and a busy week. These memories stay on the phone only.
 
-Barcode scanning also runs on the phone, using Apple's scanner. The camera is used only while the scanning screen is open; nothing is recorded or kept.
+See and delete them under **Settings > Data & backup > What the coach remembers**.
 
-> **Note:** There is no Forma account to create and no sign-in. Forma does not track you, has no advertising and uses no analytics services.
+## iCloud backup
 
-## What goes to your iCloud
+Backup goes to your own private iCloud. It is separate from optional online AI help.
 
-In Forma Core, the only copy of your data that leaves the phone is the backup. It goes to a private area of your own iCloud, tied to your Apple Account, so only you can read it. Forma keeps the latest backup and the one before it, so an earlier copy always remains.
+Export and delete controls are in **Settings > Data & backup**.
 
-If you allow Apple Health, your weigh-ins can arrive on the phone by themselves. They are still stored only on the phone and in that backup.
+## Apple Health and watch data
 
-## What a food lookup sends
+Apple Health is optional and read-only. Forma never writes to it.
 
-Looking up a food sends the words you typed, or the barcode digits, to Open Food Facts, a public nutrition database, over a secure connection. No name, account or device identifier goes with it. The bundled USDA table works entirely on the phone, with no connection at all.
+Forma Power adds Garmin data. Nothing derived from your watch is ever sent to an AI service, even when online AI help is enabled.
 
-## What Forma Power sends
+## Optional online AI help
 
-Forma Power is optional, and nothing goes online until you allow it. Two things use Forma's own server:
+Forma Power can add online AI help for free-form questions, meal ideas, meal photos and meal descriptions. It is opt-in.
 
-- **Watch connection (Garmin).** Your watch's sleep, heart-rate variability, activities and weight arrive from Garmin through Forma's server. Watch data is never sent to the AI service.
-- **Online AI help.** The meal photo or typed meal description you send to be read, the text you type when you ask the coach, and any exercise-substitute request go through Forma's server to an online AI service. Your watch data is never sent to it. Forma keeps none of what you send: no photo, no text.
+Only use it if you want those requests to use online AI. Core provides the on-phone experience without it.
 
-To confirm your subscription, the server also receives the signed purchase record from Apple, together with the device token it issued when Forma registered this phone. These are used only to keep Power working. They are never used for tracking, and the same is true of everything above: the App Store's own privacy summary lists them because they leave the phone. Each one exists to provide the feature you asked for; nothing is used for any other purpose.
+## A quick reference
 
-## Good to know
-
-- Turning off online AI help stops the sending at once, even for photos still waiting to be read.
-- You can see and change what Forma may read from Apple Health at any time in the Health app.
-- Settings > Data & backup shows the state of the backup in a few words, and offers **Back up now**, **Export all my data** and **Delete all my data**.
-- Deleting all your data removes it from the phone, and offers to delete the iCloud backup too.
+| Information or feature | Where it goes |
+| --- | --- |
+| Speech recognition | On your iPhone; never sent anywhere |
+| Coach memories | On your phone only |
+| Core app data | On your phone |
+| iCloud backup | Your own private iCloud |
+| Apple Health | Optional and read-only |
+| Watch-derived information | Never sent to an AI service |
+| Power online questions and meal requests | Online AI help, only when you opt in and use it |
 
 ## Related
 
-- [iCloud backup and restore](/guide/data/icloud-backup-and-restore/)
-- [Export or delete all my data](/guide/data/export-or-delete-everything/)
-- [Apple Health](/guide/data/apple-health/)
+- [Voice and privacy](/guide/data/voice-and-privacy/)
+- [What your coach remembers](/guide/coaches/what-your-coach-remembers/)
+- [Core and Power](/guide/start/core-and-power/)
 - [Online AI help](/guide/power/online-ai-help/)

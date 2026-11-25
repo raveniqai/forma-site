@@ -2,46 +2,46 @@
  {
   "id": "start",
   "title": "Start here",
-  "blurb": "What Forma is for, setting up, and a day with it."
+  "blurb": "Meet your coach, finish the first conversation and settle into your first week."
  },
  {
   "id": "eat",
   "title": "Eat",
-  "blurb": "Logging food, targets and your week."
+  "blurb": "Log food by talking or typing, understand your targets and review your week."
  },
  {
   "id": "train",
   "title": "Train",
-  "blurb": "Sessions, sets, the rest timer and your history."
+  "blurb": "Start sessions, adapt to time and equipment, and make room for mobility."
  },
  {
   "id": "progress",
   "title": "Progress",
-  "blurb": "Weight, body composition, strength and the Fitness score."
+  "blurb": "Reports, the six home numbers, body trends, strength and recovery."
  },
  {
   "id": "coaches",
-  "title": "Coaches",
-  "blurb": "The training and diet coaches and their messages."
+  "title": "Your coach",
+  "blurb": "A cheat sheet, morning check-ins, useful context and weekly reviews."
  },
  {
   "id": "power",
   "title": "Forma Power",
-  "blurb": "Garmin data, online AI help and Ask Coach."
+  "blurb": "Optional Garmin data and online AI help for questions and meals."
  },
  {
   "id": "data",
   "title": "Your data",
-  "blurb": "Backup, Apple Health, export, delete and privacy."
+  "blurb": "Voice privacy, Apple Health, private iCloud backup, export and deletion."
  },
  {
   "id": "help",
   "title": "Help",
-  "blurb": "When something does not work."
+  "blurb": "When a request, nudge, watch sync or backup does not work as expected."
  },
  {
   "id": "your-way",
   "title": "Track it your way",
-  "blurb": "Different ways to log food, judge progress and train, with worked weeks."
+  "blurb": "Choose voice, text or full screens, and build a routine that fits your goal."
  }
 ]

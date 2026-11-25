@@ -1,64 +1,49 @@
 ---
-title: Your two coaches
-summary: The training coach and the diet coach.
-order: 10
+title: One coach, many kinds of help
+summary: Training, food, recovery and progress through one conversation.
+order: 20
 ---
 
-# Your two coaches
+# One coach, many kinds of help
 
-Forma has two coaches: a training coach and a diet coach. Each works from your own numbers and does its own job. Neither needs the other.
+Forma has one coach screen. You do not have to decide which coach to open or which part of the app should answer.
 
-## When to use it
+Ask about training, then log breakfast, then check your sleep. The same conversation is the way in.
 
-Read this page when:
+## One place to ask
 
-- you are new to Forma and want to know what the two coaches are before you change anything;
-- you want to know whether you must use both. You do not;
-- you want to know what each coach does with your numbers;
-- you have heard that the coaches can notice things together, and want to know what that means.
+Start with what you want to do:
 
-## What each coach does
+- `start training` for a session;
+- `log espresso` for food and drink;
+- `I weigh 78.4` for a weigh-in;
+- `how did I sleep this week` for recovery;
+- `am I on track` for the wider picture.
 
-### The training coach
+The coach can also explain itself. Ask `what can you do` if you are not sure where to begin.
 
-The training coach plans your sessions: which lifts, how many sets, what weight, and when to rest. It progresses your weights over time, calls rest days, and watches your recovery and any injury you log. Its work appears on the Train tab.
+## Full screens when you want them
 
-### The diet coach
+The conversation does not replace every chart or log. Open the grid menu at the top right and choose:
 
-The diet coach sets your daily calorie and protein target, runs the weekly check, and spots food patterns. It uses your 7-day average weight, not a single weigh-in. Its work appears on the Fuel tab.
+- **Train** for training;
+- **Fuel** for food and targets;
+- **Reports** for the coach summary and progress.
 
-Both coaches work from what you log: a session, a meal, a weigh-in. Neither asks the other for permission, and neither stops working because the other is off.
+In Reports, **Full report** opens the full Progress screen.
 
-## One coach, or both
+## Information that works together
 
-Forma starts with both coaches on. If you want only one, you can choose in two places:
+A question can be about more than one part of your routine. You might ask `any patterns` after a busy week, or `how was my week` after logging food, training and check-ins.
 
-- during setup, tap "I only want the eating coach" on the training-days page, or "Only want one coach?" on your plan;
-- any time, open Settings > Coaches and use the switches.
+The answer can only use information Forma has. A quiet week of logging means less for the coach to work with.
 
-Each coach does its own job with its own data. Sessions, progression and rest days belong to the training coach. Targets and the weekly check belong to the diet coach.
+## A coach, not a clinician
 
-Only when both coaches are on, and both have data, can they also notice things together. For example: you ate little in a week of heavy training. Neither coach could tell you that alone. These extras never replace either coach's own findings, and nothing waits on them.
-
-## Step by step
-
-1. Open Forma.
-2. Log your days as usual: a meal, a set, a weigh-in.
-3. Read the top card on Today. It shows what matters most right now: a check-in, a session to start, a weigh-in to add, or a coach finding.
-4. Prefer only one coach? Open Settings > Coaches and turn the other off.
-
-## Good to know
-
-> **Note:** Both coaches are on from the start. There is nothing to set up.
-
-> **Note:** The Train tab appears when the training coach is on, and the Fuel tab when the diet coach is on. Turn a coach off and its tab goes with it.
-
-> **Note:** All numbers come from fixed, tested calculations in the app. Any wording you read from a coach is only a description of those numbers.
-
-> **Note:** Forma gives information and estimates, not medical advice. Talk to a doctor or another qualified professional about anything medical.
+Forma gives information and suggestions, not medical advice. It does not diagnose symptoms or replace a qualified health professional.
 
 ## Related
 
-- [Turn a coach on or off](/guide/coaches/turn-a-coach-on-or-off/)
-- [What messages to expect](/guide/coaches/messages-to-expect/)
-- [Your day target, and why it moves](/guide/eat/your-day-target/)
+- [Talk to your coach](/guide/coaches/talk-to-your-coach/)
+- [One coach, one menu](/guide/start/the-four-tabs/)
+- [Reports and the numbers on your home screen](/guide/progress/reports-and-home-numbers/)

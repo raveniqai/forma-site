@@ -1,52 +1,46 @@
 ---
-title: Ask Coach
-summary: Questions about your own numbers.
+title: Free-form questions with Power
+summary: Optional online AI help for broader questions and meal ideas.
 order: 30
 ---
 
-# Ask Coach
+# Free-form questions with Power
 
-Ask Coach answers questions about your own training and eating from what you have logged. You ask in your own words. Forma reads your log on the phone, works the numbers out there, and gives you the answer.
+The coach screen is for everyone, not just Power. Core covers everyday coaching on your phone. Forma Power adds online AI help for free-form questions.
 
-Ask Coach is part of Forma Power. Everyone sees the speech-bubble button on Today: without Power it opens the plans instead of the sheet.
+## Start with everyday coaching
 
-## When to use it
+With the coach screen, you can say or type requests such as:
 
-- You want to read your own numbers without going through each tab: what you did last session, how many sets you did this week, how many calories you have left today.
-- You want one number explained, such as why your target is what it is.
-- You want to know how a lift is going, or whether a food fits your day.
-- You hold Forma Power.
+- `why is my calorie target what it is`
+- `am I on track`
+- `any patterns`
+- `how was my week`
+- `what can you do`
 
-## Step by step
+Open the coach and ask in the same way whether you prefer voice or typing.
 
-1. On **Today**, tap the speech-bubble button next to the settings gear at the top right. The sheet opens as **Ask Coach**.
-2. Type your question in the **Ask a question** box and tap the arrow to send, or tap one of the **Try asking** chips for a question Forma suggests.
-3. While it works, a card says **Let me check your logs…** and the answer appears in place of it.
-4. Read the answer. Every number in it is picked out (heavier type, in Forma's accent colour). **Why this answer** opens a list of which of your figures were used and where each came from. The app says: "Every number above is worked out by the app from your own logs. None comes from a language model."
-5. If the answer points at a screen to act on, an arrow button opens it: **Open Fuel**, **Open Train**, **Open Progress** or **Open Settings**.
-6. Tap **Close** when you are done.
+## What Power adds
 
-> **Note:** If your Power has ended while the sheet is open, the bar at the bottom changes to **Ask Coach is part of Power**, with "Your Power subscription has ended, so Ask is paused. Subscribe again to use it."
+Power's optional online AI help supports broader free-form questions and meal ideas. It can also help with meal photos and descriptions.
 
-> **Tip:** Nothing you ask or read is kept, so there is no conversation history when you come back.
+Online AI help is opt-in. Choose it only if you want that kind of help. Using it is not a requirement for the everyday examples in this guide.
 
-## Good to know
+## Watch data stays out of AI
 
-> **Note:** The coach does the maths before any wording. Your logged data produces the answer on the phone, and an online AI service only shapes how the answer is phrased. It never sees your watch data.
+Nothing derived from your watch is ever sent to an AI service. This includes information Forma worked out from watch data, not just the original readings.
 
-> **Note:** If Online AI help is off, Forma keeps answering from your logs in its own words. Turning it on (Settings > AI help) can make the same answers read more like a coach's voice.
+That boundary remains in place when you ask a free-form question with online AI help.
 
-> **Limit:** There is a limit on how long one question can be, and on how many you can send in a row. Near the length limit the box counts your characters, and if you send too much too soon Forma says so.
+## Speech remains on the iPhone
 
-> **Note:** Questions about symptoms, pain, medication, pregnancy or a medical condition get a fixed reply. It points you to a doctor or another qualified professional instead of an answer. Questions about self-harm, or about food or your body weighing on you, get a fixed reply that helps you find support, with a **Find a helpline** link. Safety replies are settled on the phone and are never sent away to be reworded.
+Speech recognition happens on your iPhone and is never sent anywhere. Choosing online AI for a free-form request does not move speech recognition off the phone.
 
-> **Note:** If one of your coaches is switched off, the questions that need it are answered with a short note, such as "The training coach is off, so I cannot answer training questions.", plus a button that opens Settings > Coaches.
-
-> **Note:** A question about how to use a feature is answered from Forma's built-in help. That uses none of your data.
+> **Note:** Forma gives information, not medical advice. Do not use online answers as a substitute for professional care.
 
 ## Related
 
-- [Core and Power](/guide/start/core-and-power/)
+- [Talk to your coach](/guide/coaches/talk-to-your-coach/)
 - [Online AI help](/guide/power/online-ai-help/)
-- [Your two coaches](/guide/coaches/your-two-coaches/)
-- [Privacy: what stays where](/guide/data/privacy-what-stays-where/)
+- [Voice and privacy](/guide/data/voice-and-privacy/)
+- [Core and Power](/guide/start/core-and-power/)

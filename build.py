@@ -145,7 +145,7 @@ def markdown(src: str, root: str, img_root: str = "") -> tuple[str, str]:
 def render(page_path: str, title: str, description: str, body: str, root: str, current: str = "", wide: bool = False) -> None:
     base = (ROOT / "templates" / "base.html").read_text(encoding="utf-8")
     nav = []
-    for key, label, href in (("guide", "Guide", "guide/"), ("support", "Support", "support/"), ("privacy", "Privacy", "privacy/"), ("terms", "Terms", "terms/")):
+    for key, label, href in (("tutorials", "Tutorials", "tutorials/"), ("guide", "Guide", "guide/"), ("support", "Support", "support/"), ("privacy", "Privacy", "privacy/"), ("terms", "Terms", "terms/")):
         cur = ' aria-current="page"' if key == current else ""
         nav.append(f'<a href="{root}{href}"{cur}>{label}</a>')
     page = fill(
@@ -313,11 +313,11 @@ def build_guide() -> list[str]:
             continue
         lis = "".join(f'<li><a href="{root}{p["url"]}">{html.escape(p["meta"]["title"])}</a><span class="small"> {inline(p["meta"]["summary"], root)}</span></li>' for p in mine)
         cards.append(f'<section class="card guide-card" id="{sec["id"]}"><h2>{html.escape(sec["title"])}</h2><p class="small">{html.escape(sec.get("blurb", ""))}</p><ul class="guide-list">{lis}</ul></section>')
-    home = (f'<article class="prose"><h1>{html.escape(app)} guide</h1><p class="lead-in">What every part of {html.escape(CFG["short_name"])} does and how to use it, in plain words, '
-            f'with worked examples. Every example uses invented people and numbers.</p>'
-            f'<label class="search"><span>Search the guide</span><input id="guide-search" type="search" placeholder="for example: forecast, card, backup" autocomplete="off" data-index="{root}guide/search.json" data-root="{root}"></label>'
+    home = (f'<article class="prose"><h1>{html.escape(app)} guide</h1><p class="lead-in">A coach you talk to. Learn how to speak or type to {html.escape(CFG["short_name"])}, '
+            f'open Train, Fuel and Reports from the grid menu, and stay in control of your data. Start with the <a href="{root}tutorials/">short tutorials</a>, or browse every topic below.</p>'
+            f'<label class="search"><span>Search the guide</span><input id="guide-search" type="search" placeholder="for example: breakfast, sleep, backup" autocomplete="off" data-index="{root}guide/search.json" data-root="{root}"></label>'
             f'<ul id="guide-results" class="results" aria-live="polite"></ul>{"".join(cards)}</article><script src="{root}guide/search.js" defer></script>')
-    render("guide/index.html", f"{app} guide: how to use every feature", f"A detailed guide to {app}: what each feature does, how to use it, and worked examples.", home, root, "guide", wide=True)
+    render("guide/index.html", f"{app} guide: a coach you talk to", f"A plain-language guide to talking or typing to {app}, training, food, reports and privacy.", home, root, "guide", wide=True)
     (OUT / "guide").mkdir(exist_ok=True)
     (OUT / "guide" / "search.json").write_text(json.dumps(index_rows, ensure_ascii=False), encoding="utf-8")
     (OUT / "guide" / "search.js").write_text(SEARCH_JS, encoding="utf-8")
@@ -332,9 +332,12 @@ def main() -> None:
     OUT.mkdir()
     app = CFG["app_name"]
 
-    render("index.html", f"{app}: training coach and diet coach for iPhone",
-           f"{app} is a training coach and a diet coach that run on your iPhone, keep your data private, and work alone or together.",
+    render("index.html", f"{app}: a coach you talk to",
+           f"{app} is a coach you talk to about training, food and progress. Speak or type on your iPhone, with Core on your phone and optional Power extras.",
            fragment("index.html", "./"), "./")
+    render("tutorials/index.html", f"Tutorials - {app}",
+           f"Short tutorials for {app}: a coach you talk to. Start with setup, your first week, everyday requests and reports.",
+           fragment("tutorials.html", "../"), "../", "tutorials")
 
     for key, md in (("privacy", "privacy.md"), ("terms", "terms.md")):
         title, body = legal(md, "../")
@@ -360,7 +363,7 @@ def main() -> None:
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     base = CFG["site_url"].rstrip("/")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
-    urls = ["", "support/", "privacy/", "terms/"] + guide_urls
+    urls = ["", "tutorials/", "support/", "privacy/", "terms/"] + guide_urls
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"<url><loc>{base}/{u}</loc><lastmod>{CFG['effective_date']}</lastmod></url>\n" for u in urls)

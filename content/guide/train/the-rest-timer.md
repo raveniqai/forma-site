@@ -1,70 +1,37 @@
 ---
-title: The rest timer
-summary: The timer, the Live Activity and the Lock Screen.
-order: 30
+title: Training when your week changes
+summary: Give the coach context about illness, travel and busy days.
+order: 60
 ---
 
-# The rest timer
+# Training when your week changes
 
-After each set, Forma counts down the rest at the bottom of every session screen. Glance at the bar on the screen when Forma is open, or at the Lock Screen when it is not.
+Not every week looks like the plan. Tell the coach what is happening in a few words. You do not need to rebuild everything yourself.
 
-## When to use it
+## Being sick
 
-- You have just pressed Log set and want a countdown without opening a clock.
-- You keep your phone in your pocket or armband between sets and still want to see the time left.
-- You want a nudge when the rest is over, not an alarm to shut off.
+Tell the coach that you are sick when it affects your day. This is one of the few things the coach can remember on your phone.
 
-## The countdown
+Rest and medical decisions are bigger than an app. Forma gives information, not medical advice. Speak to a qualified health professional when you need care.
 
-A slim dark bar pinned above the bottom edge shows `Rest`, the time left, and two buttons:
+## Travelling
 
-- `+15` adds 15 seconds of rest.
-- **Skip** ends the rest at once.
+Tell the coach that you are travelling. Your first-run answers say where you normally train, but real weeks can be different.
 
-A thin fill runs behind the bar so you can see at a glance how much of the rest is left.
+Use the coach screen to ask for training or a small movement break that fits the day. `stretch` and `desk reset` are simple options when a full session is not realistic.
 
-How long a rest is depends on the lift, and each lift's own header shows its rest time:
+## A busy week
 
-| Lift | Rest |
-| --- | --- |
-| Warm-up sets | 60 seconds |
-| Lifts for core, lower back and calves | 45 seconds |
-| Isolation lifts (one muscle at a time) | 60 seconds |
-| Compound lifts (several muscles together) | 90 seconds |
+Tell the coach that it is a busy week. On a particular day, add something concrete such as `I only have 35 minutes`.
 
-Plans in strength mode double the last two. There is no rest after the last set of a lift: when it is done, Forma takes you back to the list.
+A shorter session or a small amount of movement can be easier to fit in than an all-or-nothing plan.
 
-## When the rest ends
+## Check the memories later
 
-- **Forma open on the screen**: you hear two short beeps and feel a tap. The beeps are mixed into your music, which dips for a moment and then comes back.
-- **Phone locked, or Forma in the background**: a notification says `Rest is over` and names the lift and the set. The first time, iOS asks whether Forma may send notifications.
-
-> **Tip:** No beep? Turn the volume up. No notification? Open Settings in Forma, then **Reminders & notifications**, and allow them there.
-
-## Lock Screen and Dynamic Island
-
-On a phone that supports it, the countdown also runs as a Live Activity while you rest. It shows on the Lock Screen and in the Dynamic Island, and names the lift you are resting from. The expanded Island also shows the set. You can read the countdown without unlocking the phone or opening the app. When the rest ends or the session finishes, the Live Activity disappears.
-
-The rest timer belongs to the training coach. With the training coach switched off, no Live Activity runs. The Live Activity carries its own buttons: `−15` and `+15` to change the rest by 15 seconds, and **Skip** to end it, so you can adjust the rest without opening the app.
-
-## The Today widget
-
-The Live Activity only runs during a session. To see Forma on the Lock Screen the rest of the time, add the **Today** widget. It comes in a small and a medium size for the Home Screen, and in circular, rectangular and inline sizes for the Lock Screen. It shows calories and protein left, your 7-day weight average, and what to do next.
-
-1. Touch and hold an empty spot on the Home Screen, then tap the plus.
-2. Search for Forma, choose **Today**, pick a size and tap **Add Widget**.
-
-> **Tip:** If a widget looks old, open Forma once. It updates the widget whenever the app is open.
-
-## Good to know
-
-- The bar appears on every session screen — the list of lifts and each lift's own screen — so you never lose it by navigating.
-- Added too much rest? On the Live Activity, `−15` takes 15 seconds back; shortening it to zero ends it. On the in-app bar, **Skip** ends the rest early.
-- The notification names the lift and set you logged, so you know which lift to walk back to.
-- Missed the rest entirely? The next screen is waiting; nothing is marked as done without you.
+Open **Settings > Data & backup > What the coach remembers** to see or delete saved context about being sick, travelling or a busy week.
 
 ## Related
 
-- [Log your sets](/guide/train/log-your-sets/)
-- [Turn a coach on or off](/guide/coaches/turn-a-coach-on-or-off/)
-- [Troubleshooting](/guide/help/troubleshooting/)
+- [Short on time](/guide/train/short-on-time/)
+- [What your coach remembers](/guide/coaches/what-your-coach-remembers/)
+- [Pain, illness and training](/guide/train/injuries/)

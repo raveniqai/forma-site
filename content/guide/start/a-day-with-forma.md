@@ -1,44 +1,54 @@
 ---
 title: A day with Forma
-summary: A simple rhythm that gives the coach what it needs.
-order: 30
+summary: A light daily rhythm built around a few short conversations.
+order: 50
 ---
 
 # A day with Forma
 
-Forma works best as a short daily rhythm: a check-in and a weigh-in when you can, meals as you go, your session when you train. None of it takes long. Together, these give the coach what it needs to plan what comes next.
+There is no long daily checklist. Tell the coach what happened, ask what you need, and get on with your day.
 
-## When to use it
+## In the morning
 
-- You have set Forma up and want to know what to do each day.
-- You want the smallest routine that keeps your targets and sessions on track.
-- You missed a few days and want to pick the rhythm up again.
+Check in if you want to. Choose Wrecked, Flat, Normal, Good or Strong. You can also say `I feel 7`.
 
-## Step by step
+If you use the optional morning nudge, it can give you a gentle prompt for the day. Then glance at the six home numbers if you want a quick view of sleep, HRV, resting heart rate and the rest.
 
-Forma has two coaches, one for training and one for eating. This rhythm feeds both.
+## When you eat
 
-1. Morning: open Today. If the Morning check-in is showing, slide to how rested you feel and tap Save. Tap Add a note first if anything is worth remembering, such as poor sleep or pain.
-2. Weigh in when you can. Tap Add weigh-in on Today, or let Apple Health bring the reading in. A few readings a week is plenty. If you have no weigh-ins yet, the weight card offers Use Apple Health. It reads your weight from Health, so you do not type it twice. Forma only reads.
-3. Eat: on Fuel, tap the plus at the top right (Add food) and log each meal as you go. Logging while the meal is fresh keeps the day accurate.
-4. Train: on Train, tap the Start button on today's session card and log your sets.
-5. Evening: on Fuel, open the More menu at the top right (the three dots) and tap Close today. If you do not, the day closes by itself at 21:00 as logged.
+Tell the coach what you had. Keep it as simple as you like:
 
-Each piece feeds a calculation. The weigh-ins build the 7-day average that your targets follow. The meals and sets fill the day. The check-in says how you feel. If you stop weighing in for a while, one new weigh-in restarts the average.
+- `log breakfast 107 g cucumber`
+- `log espresso`
 
-## Good to know
+Open **Fuel** from the grid menu when you want the fuller food view.
 
-> **Tip:** Missed a day? You can still add or change meals for the last 14 days. Older days are read-only.
+## When you train
 
-- The check-in is a slider from 1 to 10, with a word for the number you pick. The ends are marked Exhausted and Great. The note is optional.
-- The weigh-in sheet starts from your last reading. Nudge it to what the scale says and tap Save weigh-in. If you already weighed in today, the button on Today says Update today's weigh-in.
-- The big card on Today shows the one best next action, worked out from your day. On a busy day, doing only the card is enough.
-- If the plan says rest, the card offers Call it a rest day, with Train anyway underneath if you would rather train.
-- Left the app in the middle of a session? Today shows it as In progress, with a button to resume the session.
+Say `start training`. You can add context before you begin:
+
+- `I only have 35 minutes`
+- `equipment taken?`
+- `warm up`
+
+When you finish, ask for `cool down` or `stretch` if that would feel good.
+
+## When you want to check in
+
+Ask one question instead of digging through charts:
+
+- `am I on track`
+- `show my bench progress`
+- `how did I sleep this week`
+- `how was my week`
+
+Open **Reports** from the grid menu for the coach summary and the wider picture.
+
+> **Tip:** A missed day does not need a big reset. Open Forma and tell the coach the next true thing, such as `I weigh 78.4` or `log my creatine`.
 
 ## Related
 
-- [Weight and the 7-day average](/guide/progress/weight-and-the-7-day-average/)
-- [Log food: search, scan or by hand](/guide/eat/log-food/)
-- [Today's session](/guide/train/todays-session/)
-- [Change or remove an entry](/guide/eat/edit-or-remove-entries/)
+- [Your first week](/guide/start/your-first-week/)
+- [Morning check-in and nudges](/guide/coaches/morning-check-in-and-nudges/)
+- [Short on time](/guide/train/short-on-time/)
+- [Reports and the numbers on your home screen](/guide/progress/reports-and-home-numbers/)

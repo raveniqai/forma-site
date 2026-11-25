@@ -17,6 +17,13 @@ Everything you enter or connect: profile (height, birth date, sex, goal), weigh-
 
 With Core, we (the developer) cannot see it and do not receive it. With Power, only the specific data described in [Garmin data and AI](#garmin-data-and-ai) reaches our server.
 
+### Talking to the coach
+
+- **Voice.** If you speak to the coach, your speech is turned into text **on your iPhone** using Apple's on-device recognition. The audio is never sent to us or to anyone else. If the on-device model is not available for your language, the microphone button is simply not offered.
+- **Spoken answers.** The coach can read its answers aloud with the voices built into iOS. This happens on the phone.
+- **What the coach remembers.** When you tell the coach something about yourself, such as a food you avoid, being ill, travelling or having a busy week, it keeps that note **on your phone only**. It is included in your iCloud backup if you turn that on. You can see and delete every note in Settings > Data & backup > What the coach remembers, and "Delete all my data" removes them.
+- **Nothing leaves the phone by default.** What you type or say is understood on the device. It goes online only if you use a Power feature and have agreed to online AI help, as described below.
+
 The start date of your free trial is kept in your phone's Keychain and in your iCloud backup, so that reinstalling or restoring does not restart it.
 
 ## Garmin data and AI

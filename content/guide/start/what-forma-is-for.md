@@ -1,44 +1,42 @@
 ---
 title: What Forma is for
-summary: The idea in one page.
+summary: One coach for training, food and progress.
 order: 10
 ---
 
 # What Forma is for
 
-Forma helps you train, eat and recover while asking you for very little. You log what you did — a meal, a set, a weigh-in — and Forma works out what to do next: today's session, your calorie and protein target, and when to rest.
+Forma is a coach you talk to. Open the app and speak or type on one coach screen. Ask for a session, log a meal, add a weigh-in, or look back at your progress.
 
-![Today. Invented sample data.](forma-01-today.png)
+You do not need to learn a set of screens before you begin. Start with something ordinary, such as `log breakfast 107 g cucumber` or `start training`.
 
-## When to use it
+## What the coach can help with
 
-- You want to train and eat well, but you do not want to plan every session and every meal yourself.
-- You want a plan that comes from your own numbers, not from generic advice.
-- You want your logs to stay on your phone, with no account to create and no tracking.
+- **Training:** start a session, warm up, cool down, or fit training around the time you have.
+- **Food:** log what you ate and see your calorie and protein targets.
+- **Your body:** record your weight and look at body trends.
+- **Recovery:** ask about sleep, heart-rate variability and resting heart rate.
+- **Progress:** check a lift, new records, training volume and your week.
 
-## Step by step
+Train, Fuel and Reports are still there when you want a full screen. Open the grid menu at the top right of the coach screen and choose one.
 
-Forma runs on a short daily loop.
+## A quiet view of today
 
-1. Log what you did: a meal on Fuel, a set on Train, a weigh-in on Today. Apple Health can bring the reading in from a connected scale, so you do not have to type it.
-2. Open Today and read the big card near the top. It shows the next thing to do. That can be a check-in, a session to start or resume, a meal to log, a weigh-in to add, or a rest day to call.
-3. Tap the button on the card and do that one thing. The check-in asks how rested you feel, on a scale from 1 to 10 (Exhausted to Great). A session card takes you to Train. A meal card takes you to Fuel.
-4. Come back the next day. Your targets, the weights to lift and your rest days are worked out again from what you logged.
+The home screen has a strip of six numbers: this week, protein, weight, sleep, HRV and resting heart rate. Tap a number to open its chart.
 
-## Good to know
+The morning check-in lets you say how you feel. Choose Wrecked, Flat, Normal, Good or Strong, or say something like `I feel 7`. An optional morning nudge can help you start the day.
 
-- The first time you open Forma, you see a short setup before this loop starts. After that, Forma opens on Today.
-- At the top of Today you see the date and a greeting. Below it is the big card for the next thing to do.
-- Under the card are three rings: Fuel for the calories you have left today, Train for your session, and Recovery for how ready your body is.
-- Under the rings is the Weight card with your 7-day average, a small chart and an Add weigh-in button. Tap Trend on that card to see the full picture on Progress.
-- Near the top right are the gear button, which opens Settings, and a speech-bubble button labelled Ask Coach. Answering is part of the optional Forma Power extras; without it the button opens the plans.
-- Targets, session plans and rest days come from tested calculations that run on your phone. An AI never produces them.
-- Your data stays on this phone, with a backup in your own iCloud. There is no account and no tracking. Only the optional Forma Power extras (watch connection, online AI) use Forma's server.
-- Decisions use your 7-day average weight, not a single weigh-in. Your first reading starts the average. Single readings are kept for the record.
+## Your information stays yours
+
+Speech is recognised on your iPhone and is never sent anywhere. Forma Core keeps everything on your phone. iCloud backup uses your own private iCloud.
+
+Forma Power is optional. It adds Garmin data and online AI help for free-form questions, meal ideas, meal photos and meal descriptions. You choose whether to turn online AI help on. Nothing derived from your watch is ever sent to an AI service.
+
+Forma gives information, not medical advice.
 
 ## Related
 
-- [The four tabs](/guide/start/the-four-tabs/)
-- [A day with Forma](/guide/start/a-day-with-forma/)
-- [Your two coaches](/guide/coaches/your-two-coaches/)
+- [One coach, one menu](/guide/start/the-four-tabs/)
+- [Setting up](/guide/start/setting-up/)
+- [Talk to your coach](/guide/coaches/talk-to-your-coach/)
 - [Privacy: what stays where](/guide/data/privacy-what-stays-where/)

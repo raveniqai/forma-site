@@ -1,50 +1,40 @@
 ---
-title: Turn a coach on or off
-summary: Use only training, only eating, or both.
-order: 20
+title: Make the coach fit your life
+summary: Use voice or text, add context and keep interruptions optional.
+order: 50
 ---
 
-# Turn a coach on or off
+# Make the coach fit your life
 
-Forma has two coaches and you choose which ones you use: the training coach, the diet coach, or both. The switches are in Settings > Coaches. Turning a coach off hides it. Nothing you logged is deleted.
+You do not have to use Forma the same way every day. Speak when your hands are busy. Type when you want quiet. Open a full screen only when you need it.
 
-## When to use it
+## Add useful context
 
-- You want session plans but no calorie targets, or targets but no session plans.
-- You want to keep logging while the coaching goes quiet for a while.
-- You turned a coach off earlier and want it back.
+Tell the coach when something changes your normal routine. It can remember a few things you tell it, such as:
 
-## Step by step
+- a food you avoid;
+- being sick;
+- travelling;
+- a busy week.
 
-1. Open Settings: tap the gear at the top right of Today.
-2. Tap Coaches.
-3. Switch Training coach on or off, and Diet coach on or off.
+These memories stay on the phone. You can see and delete them under **Settings > Data & backup > What the coach remembers**.
 
-### During setup
+## Choose how much guidance you want
 
-You can also choose the first time you open Forma. The training-days page has "I only want the eating coach", and your plan has "Only want one coach?". Whatever you pick there, you can change it later in Settings > Coaches.
+Use a short request when you know exactly what you need, such as `warm up` or `log espresso`.
 
-## What each choice changes
+Ask a broader question when you want help understanding the day, such as `am I on track` or `any patterns`.
 
-- **Both on.** Today shows both areas, and the coaches can also notice things together, such as eating little in a week of heavy training. Settings > Coaches also shows how they help each other.
-- **Diet coach only.** You get calorie and protein targets. Because the diet coach cannot match your training days, the target stays the same every day and is based on how active you usually are. The Train tab goes.
-- **Training coach only.** Sessions, progression and rest days all work. There are no calorie or protein targets. The Fuel tab goes.
-- **Both off.** Forma is a plain log. Weigh-ins, history and backup still work. There are no targets, session plans, reminders or messages, and Today offers to turn a coach back on.
+The optional morning nudge is there if you like a prompt. You can leave it off and still use the morning check-in.
 
-In every case: turning a coach off hides its tab, its messages, its reminders, its widget rows and its lines on Today. Your logs, history and backups are untouched.
+## Keep the full screens close
 
-## Good to know
+Open the grid menu at the top right for **Train**, **Fuel** and **Reports**. This is useful when you would rather browse than ask.
 
-> **Note:** Turn a coach back on and its tab, messages and reminders come back, with everything you logged.
-
-> **Note:** A coach that is off also pauses its reminders. The check-in and injury reminders belong to the training coach; the food, weigh-in, supplements and tape measurement reminders belong to the diet coach.
-
-> **Note:** With only one coach on, Today may show a small card suggesting the other, with one concrete benefit. Tap Not now and it stays away: it comes back at most once a week, and never after you have dismissed it twice. It never blocks anything.
-
-> **Tip:** Reminder times are chosen under Settings > Reminders & notifications.
+There is no need to change coaches or rebuild your plan when your week changes. Tell the coach what is happening and review the memories it keeps.
 
 ## Related
 
-- [Your two coaches](/guide/coaches/your-two-coaches/)
-- [What messages to expect](/guide/coaches/messages-to-expect/)
-- [The four tabs](/guide/start/the-four-tabs/)
+- [Voice and privacy](/guide/data/voice-and-privacy/)
+- [What your coach remembers](/guide/coaches/what-your-coach-remembers/)
+- [Morning check-in and nudges](/guide/coaches/morning-check-in-and-nudges/)

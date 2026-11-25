@@ -1,72 +1,41 @@
 ---
-title: Weight and the 7-day average
-summary: Why one weigh-in means little and the average means a lot.
-order: 10
+title: Weight and body trends
+summary: Log a weigh-in by voice or text, then look beyond one day.
+order: 20
 ---
 
-# Weight and the 7-day average
+# Weight and body trends
 
-Body weight can move by a kilo or so in a single day because of water, food and salt. One weigh-in tells you very little. Forma works from the average of your last 7 days: a steady line that shows the real direction.
+To record your weight, say or type `I weigh 78.4` on the coach screen. Use the reading from your scale and your usual unit.
 
-![Weight and its 7-day average.](forma-07-progress-weight.png)
+## A single reading is a snapshot
 
-## When to use it
+Body weight can move for ordinary reasons that have little to do with your longer-term goal. Try not to turn one morning into a verdict.
 
-- You are cutting, maintaining or gaining, and you want to know whether the pace is right.
-- One weigh-in jumped up or down, and you want to know whether to believe it.
-- You want your calorie and protein targets to follow your real weight, not one morning's reading.
+Give yourself enough time to build a record. A trend is more useful than reacting to every individual reading.
 
-## Step by step
+## Find the weight chart
 
-1. Tap **Add weigh-in** on Today, or the plus on the Weight card on Progress.
-2. Enter your weight and save.
+Weight is one of the six quiet numbers on the home screen. Tap it to open its chart.
 
-Apple Health can also bring weigh-ins in from your smart scale, so you never type anything.
+You can also open **Reports** from the grid menu. Weight appears on the on-track card beside your fitness score, muscle progress and body trends.
 
-## A worked example
+## Keep the context close
 
-Sam weighs 88 kg and is on a cut. Sam weighs in each morning from 26 October to 8 November 2026. The average for a date is the mean of the readings in the last 7 days including that date. The first days therefore use fewer readings.
+Your goal and food targets are part of the same picture. Ask `why is my calorie target what it is` when a target needs explaining.
 
-| Date | Weigh-in (kg) | 7-day average (kg) |
-|---|---|---|
-| 26 Oct | 88.4 | 88.40 |
-| 30 Oct | 88.0 | 88.40 |
-| 1 Nov | 87.9 | 88.31 |
-| 4 Nov | 87.5 | 88.04 |
-| 6 Nov | 87.3 | 87.81 |
-| 8 Nov | 87.1 | 87.60 |
+For a wider review, ask `am I on track` or `how was my week`. These questions are more useful than treating weight as a daily pass or fail.
 
-On 8 November the average is 87.60 kg. A week earlier, on 1 November, it was 88.31 kg. That is a change of -0.71 kg, or -0.81% of bodyweight per week.
+## Optional Apple Health
 
-Single weigh-ins jump around by half a kilo or more (88.9 one day, 88.1 the next), while the average moves smoothly.
+Apple Health can be used as an optional, read-only source. Forma never writes to Apple Health.
 
-Forma puts your pace against a band, in percent of bodyweight per week:
+If you use a watch or Health data, nothing derived from your watch is ever sent to an AI service.
 
-| Goal | Aim band (% per week) |
-|---|---|
-| Cut | -0.75 to -0.50 |
-| Maintain | -0.25 to +0.25 |
-| Bulk | +0.25 to +0.50 |
-
-At -0.81, Sam's week is just past the fast end of the cut band, so the verdict at the top of Progress reads **faster than aim**.
-
-## Good to know
-
-- On the Weight card, dots are single weigh-ins and the line is the 7-day average. Single weigh-ins are for the record. Decisions use the average.
-- The verdict depends on your goal. On a cut, it can read on track, faster than aim, too fast, slower than aim, stalled, or moving the wrong way. A loss faster than 1% of bodyweight per week crosses the "too fast" line, where muscle starts to go. Changes smaller than about 0.1% per week count as flat.
-- The average moves your calorie and protein targets. It also feeds the verdict at the top of Progress, which compares your pace per week with the pace you aim for.
-- If you go a week without a weigh-in, there is no current average until you add one. One new weigh-in restarts it.
-- Forma stores one weigh-in per day. If a scale reading and a hand-entered value both come in for the same day, the newer one takes its place.
-- The average is worked out again from your full history each time you look at it, so it can never drift.
-- Every two weeks, Forma checks what actually changed against what it predicted, and can raise or lower your daily calories. If the trend is inside half a kilo of what was predicted, it leaves your targets alone.
-
-> **Tip:** Weigh at a similar time, for example after the toilet and before breakfast. Several times a week works better than once.
-
-> **Note:** If you are losing or gaining weight faster than expected and feel unwell, see a doctor.
+> **Note:** Speak to a qualified professional about unexpected or concerning weight changes. Forma gives information, not medical advice.
 
 ## Related
 
-- [Your day target, and why it moves](/guide/eat/your-day-target/)
-- [Body fat and lean mass](/guide/progress/body-fat-and-lean-mass/)
-- [Ways to judge progress](/guide/your-way/ways-to-judge-progress/)
+- [Reports and the numbers on your home screen](/guide/progress/reports-and-home-numbers/)
+- [Your calorie and protein targets](/guide/eat/your-day-target/)
 - [Apple Health](/guide/data/apple-health/)

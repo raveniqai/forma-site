@@ -1,56 +1,40 @@
 ---
-title: Bring your workout history
-summary: Import sessions from another app so progression starts from real numbers.
-order: 70
+title: Understand your bench progress
+summary: Ask for one lift's trend and read it in context.
+order: 80
 ---
 
-# Bring your workout history
+# Understand your bench progress
 
-Forma can read a CSV file of workouts exported from another training app, match the exercises to its own lifts, and add the sessions to your History. Instead of starting from nothing, your suggested weights, volume and strength trends begin from your real numbers.
+To check bench, say or type `show my bench progress`. The coach gives you a direct way to ask without looking through every report.
 
-## When to use it
+## Give the trend time to form
 
-- You are moving to Forma from another training app and want your past workouts to come with you.
-- Forma's starting suggestions should come from what you really lifted, not from a first-session guess.
-- You have no export, but you know your last weight and reps for a few main lifts.
+One session is one point. More sessions make it easier to see whether your training is moving in the direction you want.
 
-## Get the file from the other app
+Try not to judge the whole trend from your best or worst day. Look at the wider run of training.
 
-1. In your other app, look for something named **Export data**, **Export workouts** or **Download my data**. It is usually in its Settings or Profile.
-2. Choose CSV (a spreadsheet file) if it asks for a format.
-3. Save the file to Files or iCloud Drive, or share it to this phone.
+## Add context from the rest of Forma
 
-## Step by step
+You can read a lift trend beside other information:
 
-1. Open Settings in Forma, then **Import workout history**. You can also start from the Train tab before you have any history: tap **Import workouts** under today's plan.
-2. Tap **Choose a file** and pick the CSV. Forma reads the file on your phone; nothing is uploaded.
-3. If Forma cannot recognise the file's layout, it asks which column is which. Date, exercise and reps (or time) are needed. Weight, set number, unit column, warm-up flag, time, distance and notes are optional. Tap **Use these columns** when you are done.
-4. Check the preview: how many workouts and sets, the date range, the weight unit, and how the exercises were placed.
-5. If the file does not say whether the weights are in kilograms or pounds, Forma asks once. Check a weight you remember, then choose.
-6. Under **Exercises**, each name Forma could not place needs a decision: match it to one of Forma's lifts, keep it as its own lift, or skip it. Forma remembers your answers for the next file.
-7. Tap **Import**, then **Done** to see the workouts in History.
+- `any new records` for recent records;
+- `show my training volume` for the amount of training;
+- `how did I sleep this week` for sleep;
+- `how was my week` for a broader review.
 
-The preview also asks about dates written in a way that can be read two ways, such as 03/04/2026: you choose whether the month or the day comes first.
+The home-number strip also keeps this week, sleep, HRV and resting heart rate close by. Tap one for its chart.
 
-## If you have no file
+## When progress feels stuck
 
-On the import screen, **Enter my main lifts** opens a short form. Enter your last weight and reps for each of your main lifts, and roughly when you last trained them. Leave a lift empty to skip it. Bodyweight lifts need only reps. That is enough for a first week.
+A flat patch is information, not failure. Sleep, a busy week, travel and illness can all coincide with a change in training.
 
-## Good to know
+You can tell the coach about being sick, travelling or a busy week. Ask `any patterns` when you want to explore the information Forma has.
 
-- The import runs entirely on your phone. The file never leaves it.
-- Importing the same file twice adds nothing. Sets Forma already has are left out.
-- The preview lists everything before anything is written. Sets already in Forma are left out, warm-up sets are kept as warm-ups, bodyweight sets are kept with no weight, and set notes are not kept. Rows with no reps (cardio or time-only entries) are left out because they are not strength sets.
-- Imported workouts are marked as imported. They are ordinary workouts afterwards: you can correct a set or delete a session in History.
-- Changed your mind? Tap **Undo this import** on the result page. It removes exactly the workouts that import added, and nothing you logged yourself.
-- A file larger than 200 MB is refused. That is far more than a workout log, so it is probably the wrong file.
-- If the import fails, nothing half-finished is left behind. Forma says so and offers to try another file.
-
-> **Limit:** Importing adds workouts, so it waits until your plan is active. If your trial has ended, your history, export and backup are not affected — only the import waits.
+> **Note:** Pain is different from an ordinary plateau. Stop if something hurts and seek qualified advice.
 
 ## Related
 
-- [Past sessions and reports](/guide/train/past-sessions/)
-- [Today's session](/guide/train/todays-session/)
-- [Ways to log training](/guide/your-way/ways-to-log-training/)
-- [Export or delete all my data](/guide/data/export-or-delete-everything/)
+- [Training history, records and volume](/guide/train/past-sessions/)
+- [Strength](/guide/progress/strength/)
+- [Coach summaries, patterns and experiments](/guide/coaches/messages-to-expect/)
